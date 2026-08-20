@@ -1,43 +1,33 @@
-# vCard - Personal portfolio
+# kibur.com — Personal Portfolio
 
-![GitHub repo size](https://img.shields.io/github/repo-size/kcorporartions/vcard-personal-portfolio)
-![GitHub stars](https://img.shields.io/github/stars/kcorporartions/vcard-personal-portfolio?style=social)
-![GitHub forks](https://img.shields.io/github/forks/kcorporartions/vcard-personal-portfolio?style=social)
-[![Twitter Follow](https://img.shields.io/twitter/follow/kcorporartions?style=social)](https://twitter.com/intent/follow?screen_name=kcorporartions)
-[![YouTube Video Views](https://img.shields.io/youtube/views/SoxmIlgf2zM?style=social)](https://youtu.be/SoxmIlgf2zM)
+Personal portfolio site for **Kibur Assefa** — Computer Science undergraduate at La Salle
+University (Mathematics & AI minors), applied-AI / agentic-systems builder, full-stack
+developer, and mechanism-design researcher.
 
-vCard is a fully responsive personal portfolio website, responsive for all devices, built using HTML, CSS, and JavaScript.
+A single-page, fully responsive site (HTML/CSS/JavaScript) covering About, Resume, Projects,
+Research, and Contact. Content reflects the verified project and experience record; every
+project card links to its GitHub repository.
 
-## Demo
-
-![vCard Desktop Demo](./website-demo-image/desktop.png "Desktop Demo")
-![vCard Mobile Demo](./website-demo-image/mobile.png "Mobile Demo")
-
-## Prerequisites
-
-Before you begin, ensure you have met the following requirements:
-
-* [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
-
-## Installing vCard
-
-To install **vCard**, follow these steps:
-
-Linux and macOS:
+## Run locally
 
 ```bash
-sudo git clone https://github.com/kcorporartions/vcard-personal-portfolio.git
+git clone https://github.com/KPROsoft21/kibur.com.git
+cd kibur.com
+# open index.html in a browser, or serve it:
+python3 -m http.server 8000   # then visit http://localhost:8000
 ```
 
-Windows:
+## Structure
 
-```bash
-git clone https://github.com/kcorporartions/vcard-personal-portfolio.git
-```
+- `index.html` — all content and sections
+- `assets/css/style.css` — styles
+- `assets/js/script.js` — navigation, filtering, and interactions
+- `assets/images/` — avatar, project thumbnails, and icons
 
-## Contact
+## Credits
 
-If you want to contact me you can reach me at [Twitter](https://www.twitter.com/kcorporartions).
+Built on the open-source [vCard personal portfolio](https://github.com/codewithsadee/vcard-personal-portfolio)
+template by codewithsadee (MIT), with all content, structure, and links customized.
 
 ## License
 
